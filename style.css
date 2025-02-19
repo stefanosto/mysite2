@@ -1,0 +1,250 @@
+h1 span.highlight {
+    font-family: comic sans ms;
+    font-size: 150px;
+    color: red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000;
+}
+
+h3 {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3 span.highlight2 {
+    font-family: comic sans ms;
+    font-size: 50px;
+    color: red;
+}
+
+p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    text-align: left;
+    background-color: #232222;
+    padding: 0px;
+    margin-top: auto;
+}
+
+header .highlight {
+    font-family: comic sans ms;
+    font-size: clamp(35px, 10vw, 100px);
+    color: red;
+    display: inline-block;
+    margin: 0px auto;
+}
+
+/*vetrina*/
+#vetrina {
+    position: relative;
+    height: 500px;
+    width: auto;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(9, 9, 9, 0.5)),
+        url('hamburger.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(61, 61, 61);
+    padding: 1vw;
+}
+
+#panini{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(9, 9, 9, 0.5)),
+        url('../panini/panini.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(61, 61, 61);
+    padding: 1vw;
+}
+
+#contorni{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(9, 9, 9, 0.5)),
+        url('../contorni/contorni.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(61, 61, 61);
+    padding: 1vw;   
+}
+
+#bibite{position: absolute;
+    height: 100%;
+    width: 100%;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(9, 9, 9, 0.5)),
+        url('../bibite/bibite.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(61, 61, 61);
+    padding: 1vw;
+}
+
+
+/*navbar*/
+.navbar {
+    background-color: #000000 !important; /* Colore di sfondo della navbar */
+    padding: 10px 20px; /* Padding della navbar */
+}
+
+.navbar .navbar-brand {
+    color: #fff !important; /* Colore del testo del brand */
+    font-size: 24px; /* Dimensione del testo del brand */
+}
+
+.navbar .nav-link {
+    color: #ff0000 !important; /* Colore del testo dei link */
+    margin-right: 15px; /* Spazio tra i link */
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff !important; /* Colore del testo dei link al passaggio del mouse */
+}
+
+.navbar .dropdown-menu {
+    background-color: #444; /* Colore di sfondo del menu a discesa */
+}
+
+.navbar .dropdown-item {
+    color: #fff; /* Colore del testo degli elementi del menu a discesa */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #555; /* Colore di sfondo degli elementi del menu a discesa al passaggio del mouse */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; /* Aggiungi un po' di padding per migliorare l'aspetto */
+}
+
+footer img {
+    width: 50px; /* Imposta la larghezza desiderata */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    display: inline-block; /* Assicura che l'immagine sia allineata con il testo */
+}
+
+/*card*/
+.card {
+    color: #fff;
+    background-color: #333131e2;
+}
+
+.card-group {
+    background-color: #000000; /* Colore di sfondo delle card */
+    display: flex;
+    justify-content: center; /* Centra le card orizzontalmente */
+    padding: 20px; /* Aggiungi padding per evitare che le card siano troppo vicine ai bordi */
+    gap: 60px; /* Spazio tra le card */
+}
+
+.custom-card {
+    max-width: 250px; /* Imposta la larghezza massima delle card */
+    margin: 15px; /* Aggiungi margine tra le card */
+}
+
+.card-img-top {
+    height: 250px; /* Imposta l'altezza dell'immagine */
+    object-fit: cover; /* Mantieni le proporzioni dell'immagine */
+}
+
+@media (max-width: 500px) {
+    .card-group {
+        flex-direction: column; /* Imposta la direzione delle card in verticale */
+    }
+}
+
+
+
+
+
+/*navbar*/
+.navbar {
+    background-color: #000000 !important; /* Colore di sfondo della navbar */
+    padding: 10px 20px; /* Padding della navbar */
+}
+
+.navbar .navbar-brand {
+    color: #fff !important; /* Colore del testo del brand */
+    font-size: 24px; /* Dimensione del testo del brand */
+}
+
+.navbar .nav-link {
+    color: #ff0000 !important; /* Colore del testo dei link */
+    margin-right: 15px; /* Spazio tra i link */
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff !important; /* Colore del testo dei link al passaggio del mouse */
+}
+
+.navbar .dropdown-menu {
+    background-color: #444; /* Colore di sfondo del menu a discesa */
+}
+
+.navbar .dropdown-item {
+    color: #fff; /* Colore del testo degli elementi del menu a discesa */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #555; /* Colore di sfondo degli elementi del menu a discesa al passaggio del mouse */
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; /* Aggiungi un po' di padding per migliorare l'aspetto */
+}
+
+footer img {
+    width: 50px; /* Imposta la larghezza desiderata */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    display: inline-block; /* Assicura che l'immagine sia allineata con il testo */
+}
+
+/*card*/
+.card {
+    color: #fff;
+    background-color: #333131e2;
+}
+
+.card-group {
+    background-color: #000000; /* Colore di sfondo delle card */
+    display: flex;
+    justify-content: center; /* Centra le card orizzontalmente */
+    padding: 20px; /* Aggiungi padding per evitare che le card siano troppo vicine ai bordi */
+    gap: 60px; /* Spazio tra le card */
+}
+
+.custom-card {
+    max-width: 250px; /* Imposta la larghezza massima delle card */
+    margin: 15px; /* Aggiungi margine tra le card */
+}
+
+.card-img-top {
+    height: 250px; /* Imposta l'altezza dell'immagine */
+    object-fit: cover; /* Mantieni le proporzioni dell'immagine */
+}
+
+@media (max-width: 500px) {
+    .card-group {
+        flex-direction: column; /* Imposta la direzione delle card in verticale */
+    }
+}
